@@ -5,7 +5,7 @@ This repository contains the official implementation of our paper accepted at CV
 T-CIL addresses the critical challenge of model calibration in class-incremental learning scenarios using only a new-task validation set. Our approach perturbs exemplars from memory and optimizes the temperature on the perturbed samples. T-CIL outperforms post-hoc calibration baselines and is compatible with existing class-incremental learning techniques.
 
 ## Quick start
-
+Since T-Cil is a post-hoc calibration approach, the pretrained model is necessary.
 ### Command Line Usage
 ```bash
 # Run with default parameters (CIFAR-100, 10 tasks, 5 seeds)
