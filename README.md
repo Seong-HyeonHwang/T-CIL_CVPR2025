@@ -6,6 +6,14 @@ T-CIL addresses the critical challenge of model calibration in class-incremental
 
 ## Quick start
 ```
-# Run with default parameters
+### Command Line Usage
+```bash
+# Run with default parameters (CIFAR-100, 10 tasks, 5 seeds)
+python main.py
 
+# Quick test with single seed
+python main.py --seeds 1
+
+# CIFAR-10 experiment
+python main.py --dataset cifar10 --num_tasks 5 --num_classes 10
 ```
