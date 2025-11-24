@@ -18,7 +18,7 @@ python main.py --seeds 1
 python main.py --dataset cifar10 --num_tasks 5 --num_classes 10
 ```
 
-# Citation
+## Citation
 If you find this work useful, please cite our paper:
 ```bibtex
 @inproceedings{hwang2025t,
